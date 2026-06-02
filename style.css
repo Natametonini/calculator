@@ -1,0 +1,21 @@
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number-options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
