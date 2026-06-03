@@ -9,9 +9,19 @@
     align-items: center;
 }
 
+h3 {
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10%;
+}
+
+
+
 .main-options {
     display: flex;
-    flex-wrap: wrap;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
 }
 
 .number-options {
@@ -19,3 +29,49 @@
     flex-wrap: wrap;
 }
 
+.operator-options {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.number,
+.operator {
+    box-sizing: content-box;    
+}
+
+.number {
+    width: calc(100% / 4);
+    padding: 5px 0px;
+    margin-bottom: 2px;
+}
+
+.operator {
+    width: calc(100% / 3);
+}
+
+.teste {
+    display: flex;
+    flex-direction: column;
+}
+
+.lowerBase {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+}
+
+.zero,
+.dotBtn {
+    width: calc(70% / 2);
+}
+
+.remaining {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.equal,
+.clearBtn {
+    width: calc(100% / 2);
+}
